@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+</head>
+
+<body>
+    <h1>Formulario de Registro</h1>
+
+    <form action="" method="get">
+        <fieldset>
+            <legend>Información Personal</legend>
+            <div class="name">
+                <label for="nameInput">Nombre:</label>
+                <input type="text" id="nameInput" name="userName" placeholder="Introduce tu nombre">
+                <label for="surnameInput">Apellidos:</label>
+                <input type="text" id="surnameInput" name="userSurname" placeholder="Introduce tus apellidos">
+            </div>
+            <br><br>
+
+            <div class="age">
+                <label for="ageInput">Edad:</label>
+                <input type="number" id="ageInput" name="userAge" max="100" min="10">
+            </div>
+            <br><br>
+
+            <div class="email">
+                <label for="emailInput">Email:</label>
+                <input type="email" id="emailInput" name="userEmail" placeholder="Introduzca su Email">
+            </div>
+            <br><br>
+
+            <div>
+                <label for="passInput">Password:</label>
+                <input type="password" id="passInput" name="userPass" placeholder="********">
+            </div>
+            <br><br>
+
+            <fieldset>
+                <legend>Género</legend>
+                <div class="sex">
+                    <input type="radio" id="sexWomen" name="userSex">
+                    <label for="sexWomen">Mujer</label>
+                </div>
+                <div class="sex">
+                    <input type="radio" id="sexMen" name="userSex">
+                    <label for="sexMen">Hombre</label>
+                </div>
+                <div class="sex">
+                    <input type="radio" id="sexOther" name="userSex">
+                    <label for="sexOther">Otro</label>
+                </div>
+            </fieldset>
+            <br><br>
+
+            <div class="country">
+                <label for="countryInput">Pais:</label>
+                <input type="text" id="countryInput" name="userCountry" placeholder="Introduce tu pais">
+            </div>
+            <br><br>
+
+            <div class="progLang">
+                <label for="progInput">Lenguaje de Programacion:</label>
+                <select name="userProg" id="progInput">
+                    <option value="javascript">Javascript</option>
+                    <option value="CSS3">CSS3</option>
+                    <option value="HTML5">HTML5</option>
+                </select>
+            </div>
+            <br><br>
+
+            <fieldset>
+                <legend>Selecciona tu academia de programación favorita:</legend>
+                <div class="academy">
+                    <input type="radio" id="codeAcademy" name="userAcademy">
+                    <label for="codeAcademy">Code Space Academy</label>
+                </div>
+                <div class="academy">
+                    <input type="radio" id="acad1Academy" name="userAcademy">
+                    <label for="acad1Academy">Academia 1</label>
+                </div>
+                <div class="academy">
+                    <input type="radio" id="acad2Academy" name="userAcademy">
+                    <label for="acad2Academy">Academia 2</label>
+                </div>
+            </fieldset>
+        </fieldset>
+        <br>
+
+        <input type="checkbox">Acepto recibir cientos de miles de correos irrelevanes.
+        <br>
+        <input type="checkbox" required>Acepto los términos y condiciones.
+
+        <br><br>
+        <input type="submit" value="Guardar">
+        <input type="reset" value="Vaciar Formulario">
+    </form>
+</body>
+
+</html>

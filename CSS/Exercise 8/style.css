@@ -1,0 +1,39 @@
+.parent {
+    display: grid;
+    gap: 5px;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    grid-template-areas: "nav nav"
+                         "main layout"
+                         "main sidebar"
+                         "footer footer";
+    
+}
+
+.parent>.nav {
+    grid-area: nav;
+    background-color: rgb(0, 166, 255);
+}
+
+.parent>.main-content {
+    grid-area: main;
+    background-color: purple;
+    color: white;
+}
+
+.parent>.layout {
+    grid-area: layout;
+    background-color: rgb(4, 1, 58);
+    color: white;
+}
+
+.parent>.sidebar {
+    grid-area: sidebar;
+    background-color: aqua;
+}
+
+.parent>.footer {
+    grid-area: footer;
+    background-color: bisque;
+}

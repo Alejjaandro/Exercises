@@ -1,0 +1,138 @@
+/*General*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    background-color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.margin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+/*Container*/
+.container {
+    background-color: whitesmoke;
+    margin-top: 5%;
+}
+
+/*Login*/
+.parent {
+    display: flex;
+    background-color: white;
+
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+}
+
+/*Image*/
+.image {
+    background-image: url(../../../imagenes/ofice.jpg);
+    background-size: cover;
+
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.login {
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+    margin-left: 50px;
+}
+
+.login>h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    margin-top: 5px;
+}
+
+/*Form*/
+.email {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.email>input {
+    border-radius: 5px;
+    padding: .5rem .75rem;
+    border-width: 1px;
+}
+
+.password {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.password>input {
+    border-radius: 5px;
+    padding: .5rem .75rem;
+    border-width: 1px;
+}
+
+
+/*Buttons*/
+.login>a {
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+
+    padding: 5px;
+}
+
+.media>a {
+    box-shadow: 0 0 2px;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+
+    padding: 5px;
+}
+
+.options {
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 720px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    
+    .parent {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .image {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .login {
+        width: 100%;
+        margin-left: 25px;
+    }
+}

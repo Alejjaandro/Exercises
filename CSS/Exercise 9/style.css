@@ -1,0 +1,95 @@
+.parent {
+    display: grid;
+    gap: 10px;
+
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+}
+
+[class^="child"] {
+    background-color: aqua;
+}
+
+/*Transicion*/
+[class^="child"]:hover {
+    transform: scale(1.10);
+
+    transition: transform 0.5s;
+}
+
+/*Animaciones*/
+[class^="child"] {
+    /*Name / Duration / Timing function / Delay / Reps / Fill mode*/
+    animation: appear 2s ease 0.5s 1 forwards;
+    opacity: 0;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%
+    }
+}
+
+.child-2 {
+    animation-delay: 1s;
+}
+
+.child-3 {
+    animation-delay: 1.5s;
+}
+
+.child-4 {
+    animation-delay: 2s;
+}
+
+.child-5 {
+    animation-delay: 2.5s;
+}
+
+.child-6 {
+    animation-delay: 3s;
+}
+
+.child-7 {
+    animation-delay: 3.5s;
+}
+
+.child-8 {
+    animation-delay: 4s;
+}
+
+.child-9 {
+    animation-delay: 4.5s;
+}
+
+.child-10 {
+    animation-delay: 5s;
+}
+
+.child-11 {
+    animation-delay: 5.5s;
+}
+
+.child-12 {
+    animation-delay: 6s;
+}
+
+.child-13 {
+    animation-delay: 6.5s;
+}
+
+.child-14 {
+    animation-delay: 7s;
+}
+
+.child-15 {
+    animation-delay: 7.5s;
+}
+
+.child-16 {
+    animation-delay: 8s;
+}

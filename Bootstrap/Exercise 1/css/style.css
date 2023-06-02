@@ -1,0 +1,21 @@
+.image-1 {
+    background-image: url(../Imagenes/coche3.jpeg);
+    background-size: cover;
+    height: 50vw;
+}
+
+.image-2 {
+    background-image: url(../Imagenes/foto.jpeg);
+    background-size: cover;
+    height: 50vw;
+}
+
+.image-3 {
+    background-image: url(../Imagenes/índice.jpeg);
+    background-size: cover;
+    height: 50vw;
+}
+
+.card {
+    padding: 0;
+}

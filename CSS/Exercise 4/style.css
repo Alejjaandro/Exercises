@@ -1,0 +1,73 @@
+/*General*/
+* {
+    box-sizing: border-box;
+}
+
+.image-body {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/*Header*/
+header {
+    margin-bottom: 20px;
+}
+
+.top-banner {
+    position: relative;
+}
+
+.top-banner form {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -17px;
+}
+
+.news>a, .news>span {
+    display: block;
+}
+
+/*Aside*/
+aside {
+    float: left;
+    width: 25%;
+}
+
+/*Central content*/
+
+div.body {
+    float: right;
+    width: 74%;
+}
+
+section.body-article {
+    float: left;
+    width: 75%;
+}
+
+section.right-article {
+    float: right;
+    width: 24%;
+}
+
+/*Footer*/
+
+.clear {
+    clear: both;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer>span {
+    float: right;
+}
